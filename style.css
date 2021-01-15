@@ -10,24 +10,24 @@
         background-color: #f9f9f9;
     }
         h1 {
-            font-family: 'comic sans ms', 'comic sans', cursive;
-            text-align: left;
-            vertical-align: center;
             margin-right: 350px;
             display: inline-block;
+            vertical-align: center;
+            font-family: 'comic sans ms', 'comic sans', cursive;
+            text-align: left;
         }
         h2 {
+            display: inline-block;
             font-family: helvetica, arial, sans-serif;
             text-align: right;
-            display: inline-block;
         }
 
     .section {
         display: block;
     }
     .main {
-        width: 970px;
         height: 970px;
+        width: 970px;
         padding: 15px;
         background-image: radial-gradient(circle, #6f5964, #4f3b43, #1d0d11);
     }
@@ -37,87 +37,87 @@
             margin: 15px;
             padding: 3px;
             display: inline-block;
-            outline: 3pt solid #C0C0C3;
             vertical-align: top;
+            outline: 3pt solid #C0C0C3;
         }
 
         .about {
-            width: 445px;
             height: 290px;
-            background-image: linear-gradient(to left, #d7c8d6 , #fefefe);
-            display: inline-block;
+            width: 445px;
             margin-top: 10px;
             margin-left: 30px;
+            display: inline-block;
+            background-image: linear-gradient(to left, #d7c8d6 , #fefefe);
         }
             h3{
                 height: 22px;
+                padding: 3px;
                 display: block;
+                vertical-align: top;
                 background-image: linear-gradient(#a9a9ae, #888694, #a9a9ae);
                 font-family: Arial, Helvetica, sans-serif;
-                vertical-align: top;
-                padding: 3px;
             }
             .coverletter {
                 height: 223px;
-                font-family: Arial, Helvetica, sans-serif;
                 margin: 3px;
-                padding-top: 5px;
                 padding: 3px;
+                padding-top: 5px;
+                font-family: Arial, Helvetica, sans-serif;
             }
             .coverletterlink {
                 margin-top: 9px;
                 padding: 3px;
-                color: black;
                 font-family: Arial, Helvetica, sans-serif;
+                color: black;
             }
 
         .portfolio {
             height: 600px;
             width: 300px;
-            background-image: linear-gradient(to left, #d7c8d6 , #fefefe);
+            margin: 7px;
             display: inline-block;
             vertical-align: top;
-            margin: 7px;
+            background-image: linear-gradient(to left, #d7c8d6 , #fefefe);
         }
         .website {
             width: 300px;
         }
         .eg {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12pt;
+            height: 200px;
             margin: 3px;
             padding: 5px;
-            height: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
         }
         h4 {
             height: 18px;
+            margin-bottom: 7px;
+            padding: 3px;
             display: block;
+            vertical-align: top;
             background-image: linear-gradient(#a9a9ae, #888694, #a9a9ae);
             font-family: Arial, Helvetica, sans-serif;
-            vertical-align: top;
-            padding: 3px;
-            margin-bottom: 7px;
         }
         .credential {
-            display: inline-block;
             max-height: 50px;
+            display: inline-block;
         }
         .button {
-            width: 100px;
             height: 20px;
-            padding: 4px;
+            width: 100px;
             margin: 10px 75px;
+            padding: 4px;
             display: block;
             vertical-align: bottom;
             background-color: #407d61;
             border: 1pt solid #33664f;
             border-radius: 15px;
             box-shadow: 3px 3px #898b8a;
-            color: white;
             font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 10pt;
             text-align: center;
             text-decoration: none;
-            font-size: 10pt;
         }
 
     footer {
@@ -131,12 +131,12 @@
             text-align: center;
         }
         .linkblock {
-            text-align: center;
             margin-top: 3px;
+            text-align: center;
         }
         .footsocials {
-            display: inline-block;
             max-height: 20px;
+            display: inline-block;
             }
         .social-links {
             font-family: Arial, Helvetica, sans-serif;
