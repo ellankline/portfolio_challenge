@@ -13,10 +13,8 @@
             font-family: 'comic sans ms', 'comic sans', cursive;
             text-align: left;
             vertical-align: center;
-            width: fill-content;
             margin-right: 350px;
             display: inline-block;
-
         }
         h2 {
             font-family: helvetica, arial, sans-serif;
@@ -24,8 +22,12 @@
             display: inline-block;
         }
 
+    .section {
+        display: block;
+    }
     .main {
         width: 970px;
+        height: 970px;
         padding: 15px;
         background-image: radial-gradient(circle, #6f5964, #4f3b43, #1d0d11);
     }
@@ -42,11 +44,12 @@
         .about {
             width: 445px;
             height: 290px;
-            background-color: #e9e0e9;
+            background-image: linear-gradient(to left, #d7c8d6 , #fefefe);
             display: inline-block;
             margin-top: 10px;
+            margin-left: 30px;
         }
-            h3 {
+            h3{
                 height: 22px;
                 display: block;
                 background-image: linear-gradient(#a9a9ae, #888694, #a9a9ae);
@@ -68,102 +71,76 @@
                 font-family: Arial, Helvetica, sans-serif;
             }
 
-
-
-
-
-
-    /*header {
-        length: 1000px;
-        height: 100px;
-        /*change to actual color*/ /*background-color: grey;
-        padding: 15px;
-        display: block;
-        /*delete once finished*/ /*outline: 3pt dashed pink;
-    }
-        h1 {
-            font-family: "comic sans ms", arial, sans-serif;
+        .portfolio {
+            height: 600px;
+            width: 300px;
+            background-image: linear-gradient(to left, #d7c8d6 , #fefefe);
             display: inline-block;
-            text-align: left;
-            vertical-align: text-bottom
+            vertical-align: top;
+            margin: 7px;
         }
-        h2 {
+        .website {
+            width: 300px;
+        }
+        .eg {
             font-family: Arial, Helvetica, sans-serif;
-            text-align: end;
-        }*/
-
-/*
-header {
-    height: 75px;
-    padding: 15px;
-    display: block;
-    background-color: #f6f6f6;
-}
-    h1 {
-        display: inline-block;
-        text-align: left;
-        vertical-align: bottom;
-        margin-right: 750px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    h2 {
-        text-align: end;
-        display: inline-block;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-article {
-    min-height: 700px;
-    padding: 15px;
-    background-image: radial-gradient(circle, #6f5964, #4f3b43, #1d0d11)
-
-}
-    img .portrait {
-        height: 277px;
-        width: 427px;
-        margin: 15px;
-        padding: 5px;
-        display: inline-block;
-        outline: 3pt solid #C0C0C3;
-    }
-    article section {
-        height: 200px;
-        width: 300px;
-        display: inline-block;
-
-        outline: 3pt dashed lime;
-    }
-    article section a {
-        font-family: Arial, Helvetica, sans-serif;
-        color: black;
-    }
-
-    .two {
-        display: block;
-    }
-        .three {
+            font-size: 12pt;
+            margin: 3px;
+            padding: 5px;
+            height: 200px;
+        }
+        h4 {
+            height: 18px;
+            display: block;
+            background-image: linear-gradient(#a9a9ae, #888694, #a9a9ae);
+            font-family: Arial, Helvetica, sans-serif;
+            vertical-align: top;
+            padding: 3px;
+            margin-bottom: 7px;
+        }
+        .credential {
             display: inline-block;
-            width: 150px;
-            height: 300px;
+            max-height: 50px;
+        }
+        .button {
+            width: 100px;
+            height: 20px;
+            padding: 4px;
+            margin: 10px 75px;
+            display: block;
+            vertical-align: bottom;
+            background-color: #407d61;
+            border: 1pt solid #33664f;
+            border-radius: 15px;
+            box-shadow: 3px 3px #898b8a;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            text-decoration: none;
+            font-size: 10pt;
         }
 
-h3 {
-    height: 20px;
-    background-image: linear-gradient(#a9a9ae, #888694, #a9a9ae);
-;
-    display: inline-block;
-    color: white;
-}
-p {
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-footer {
-    height: 75px;
-    padding: 15px;
-    display: block;
-    background-color: #f6f6f6;
-}
-
-*/
+    footer {
+        height: 50px;
+        width: 970px;
+        padding: 15px;
+        background-color: #f9f9f9;
+    }
+        .contact {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .linkblock {
+            text-align: center;
+            margin-top: 3px;
+        }
+        .footsocials {
+            display: inline-block;
+            max-height: 20px;
+            }
+        .social-links {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            color: black;
+            text-align: center;
+        }
